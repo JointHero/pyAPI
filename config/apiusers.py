@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+admin_users_db = {
+    "admin": {
+        "username": "admin",
+        "full_name": "Admin",
+        "email": "admin@zino.com",
+        "hashed_password": "$2b$12$NL3bGbzvcULj5Y05Qzhh1e25IuAexUhfSm5IvXe2rms3hVZ605knO",
+        'role':'Superadmin',
+        "disabled": False,
+    },
+    "zhangjun": {
+        "username": "zhangjun",
+        "full_name": "ZhangJun",
+        "email": "zhangjun@zino.com",
+        "hashed_password": "$2b$12$bBi.x9FJ/RkRTNH8NSLu9eiNZpgpobZLb4Jj3Zug2GUiiFisft5iC",
+        'role':'Superadmin',
+        "disabled": False,
+    },
+    "reader": {
+        "username": "reader",
+        "full_name": "Reader",
+        "email": "reader@zino.com",
+        "hashed_password": "$2b$12$q/YGudr8OHBSOZugpb/7AuuW5yXjmV9lQ5oTc943If16Z.IbkiBGC",
+        'role':'Reader',
+        "disabled": False,
+    },
+    "writer": {
+        "username": "writer",
+        "full_name": "c",
+        "email": "writer@zino.com",
+        "hashed_password": "$2b$12$n0vuGdK1cfUrkyYzUWFtkOjGqY0oroQyEh9QefzBhDok/fmF9XYFO",
+        'role':'Writer',
+        "disabled": False,
+    }
+}
