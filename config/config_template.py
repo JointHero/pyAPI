@@ -33,7 +33,10 @@ db_config = {
     'max_overflow' : 5,
     'limit_upset': #pyapi_db_limit_upset#,
     'default_limit': #pyapi_db_default_limit#,
-    'default_offset': 0
+    'default_offset': 0,
+    'pool_use_lifo': #pyapi_db_pool_use_lifo#,
+    'pool_pre_ping': #pyapi_db_pool_pre_ping#,
+    'pool_recycle': #pyapi_db_pool_recycle#
 }
 
 #dburi = 'mysql+pymysql://root:passw0rd@192.168.10.15:23306/acmondb'
