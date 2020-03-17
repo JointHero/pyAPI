@@ -455,6 +455,8 @@ async def reload_meta(SecuretKey: str = Header(..., min_length=5),
         'Access \'/sys/reloadmeta\' : run in reload_meta(), input data: [%s]' % str)
     if SecuretKey == 'Confirm':
         meta.DBMeta().load_activemeta()
+        meta.DBMeta().check_meta()
+        meta.DBMeta().load_meta()
         return {
         "Reload_Meta":'Sucessful'
         }
