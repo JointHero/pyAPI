@@ -1,0 +1,44 @@
+application:
+  app_name : pyAPI
+  app_version : v1.1.2
+  app_description : Powered by Zino
+  app_prefix : /api/v2
+  app_cors_origins : '*'
+  app_param_prefix : up_b_
+  app_force_generate_meta : #PYAPI_application_app_force_generate_meta#
+  app_log_level : #PYAPI_application_app_log_level#
+  app_user_func: #PYAPI_application_app_user_func#
+  app_exception_detail: #PYAPI_application_app_exception_detail#
+schema:
+  schema_cache_enabled: #PYAPI_schema_schema_cache_enabled#
+  schema_cache_filename: pyAPI_metadata
+  schema_db_metafile : metadata.json
+  schema_fetch_all_table : #PYAPI_schema_schema_fetch_all_table#
+  schema_fetch_tables : [#PYAPI_schema_schema_fetch_tables#]
+query:
+  query_limit_upset : #PYAPI_query_query_limit_upset#
+  query_default_limit : #PYAPI_query_query_default_limit#
+  query_default_offset : #PYAPI_query_query_default_offset#
+security:
+  security_key : 47051d5e3bafcfcba3c80d6d1119a7adf78d2967a8972b00af1ea231ca61f589
+  security_algorithm : HS256
+  access_token_expire_minutes : #PYAPI_security_access_token_expire_minutes#
+database:
+  db_gendburi : #PYAPI_database_db_gendburi#
+  db_dialect : #PYAPI_database_db_dialect#
+  db_drivername : #PYAPI_database_db_drivername#
+  db_host : #PYAPI_database_db_host#
+  db_port : #PYAPI_database_db_port#
+  db_name : #PYAPI_database_db_name#
+  db_schema : #PYAPI_database_db_schema#
+  db_use_schema : #PYAPI_database_db_use_schema#
+  db_username : #PYAPI_database_db_username#
+  db_password : #PYAPI_database_db_password#
+  db_uri : #PYAPI_database_db_uri#
+  db_exclude_tablespaces : [#PYAPI_database_db_exclude_tablespaces#]
+connection:
+  con_pool_size : #PYAPI_connection_con_pool_size#
+  con_max_overflow : #PYAPI_connection_con_max_overflow#
+  con_pool_use_lifo : true
+  con_pool_pre_ping : true
+  con_pool_recycle : #PYAPI_connection_con_pool_recycle#
