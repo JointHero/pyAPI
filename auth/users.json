@@ -7,14 +7,6 @@
         "role":"Superadmin",
         "disabled": "False"
     },
-    "zhangjun": {
-        "username": "zhangjun",
-        "full_name": "ZhangJun",
-        "email": "zhangjun@zino.com",
-        "hashed_password": "$2b$12$bBi.x9FJ/RkRTNH8NSLu9eiNZpgpobZLb4Jj3Zug2GUiiFisft5iC",
-        "role":"Superadmin",
-        "disabled": "False"
-    },
     "reader": {
         "username": "reader",
         "full_name": "Reader",
